@@ -65,7 +65,7 @@
 
 	\frame[plain]
 	{
-		\frametitle{Idea of short overlapping windows}
+		\frametitle{Idea of short overlapping window}
 
 		\begin{block}{Problem}
 			Every algorithm emploing full space search would operate with $O(c^{n})$ complexity.
@@ -81,12 +81,14 @@
 			\end{itemize}
 		\end{block}
 
-		\begin{figure}
-			\begin{center}
-				\includegraphics[width=0.40\textwidth]{images/window}
-				\caption{\small{What are the error and execution time as a function of \textbf{width} i \textbf{overlap} parameters?}}
-			\end{center}
-		\end{figure}
+		\begin{columns}%
+			\begin{column}{0.3\textwidth}%
+				\includegraphics[height=0.25\textheight]{images/window}
+			\end{column}%
+			\begin{column}{0.53\textwidth}%
+				\small{What are the error and execution time as a function of \textbf{width} i \textbf{overlap} parameters?}
+			\end{column}%
+		\end{columns}
 	}
 
 	\frame
