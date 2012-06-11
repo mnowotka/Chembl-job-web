@@ -1,4 +1,4 @@
-\documentclass{beamer}
+\documentclass[svgnames]{beamer}
 \usetheme{Boadilla}
 
 \usepackage{beamerthemesplit}
@@ -23,6 +23,26 @@
 \temporal<#1>{\color{gray}}{\color{blue}}%
 {\color{blue!25}}}
 
+\usecolortheme{orchid}
+\usecolortheme{whale}
+
+\setbeamercolor{byell}{bg=RoyalBlue}
+
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.4\paperwidth,ht=2.25ex,dp=1ex,left]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\hspace*{1em}\insertshortauthor
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.3\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.4\paperwidth,ht=2.25ex,dp=1ex,center]{byell}%
+    \usebeamerfont{date in head/foot}%
+	\raisebox{-0.25em}{\includegraphics[width=0.25in]{images/Chembl}}%\hspace*{-1em}%
+  \end{beamercolorbox}}%
+}
 
 \title[Recent \& Relevant experience]{Background in Web Development}
 \author[Micha³ Nowotka]{Micha³ Nowotka  \\  \small{job applicant}}
@@ -133,7 +153,7 @@
 		\begin{block}{Functional genomics as a major field in applied bioinformatics}
 			\begin{itemize}
 				\item Functional interpretation is a key step in the analysis of DNA and protein sequences.
-				\item This task cannot be done without availability of extensive functional annotation of the datasets.
+				\item This task cannot be done without extensive functional annotation of the datasets.
 				\item Due to the fast development of high-throughput sequencing technologies, an increasing amount of novel, uncharacterized sequence data have arisen.
 				\item Standarized functional annotation is essential.
 			\end{itemize}
@@ -191,7 +211,7 @@
 
 	\frame
 	{
-		\frametitle{Site Status Board -- an application monitoring the behavior of all the centers of a particular VO}
+		\frametitle{Site Status Board -- an application monitoring the behaviour of all the centers of a particular VO}
 			  
 		\begin{itemize}
 			\item SSB provides a single entry point that summarizes the status of the sites.
@@ -410,7 +430,7 @@
 			\item CERN School of Computing.
 			\item Sys Admin stuff.
 			\item Many interesting lectures (including those by Richard Stallman and James Watson).
-			\item French course.
+			\item French language course.
 			\item Working in multinational environment.
 			\item Working in large organisation.
 			\item Living abroad.
